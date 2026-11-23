@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="ReturnQueen makes online returns simple. No more packaging, printing or driving.">
+  <meta name="theme-color" content="#faf8ff">
+  <title>ReturnQueen — Returns picked up from your doorstep</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="ReturnQueen home"><span class="brand-mark">↶</span>returnqueen</a>
+    <span class="header-rule" aria-hidden="true"></span>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button>
+    <nav class="nav" aria-label="Main navigation">
+      <a href="#about">About</a><a href="#how">How it works</a><a href="#pricing">Pricing</a><a class="nav-cta" href="#app">Download App</a>
+    </nav>
+  </header>
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-orbit orbit-one"></div><div class="hero-orbit orbit-two"></div>
+      <div class="hero-copy">
+        <p class="eyebrow">Returns, reimagined</p>
+        <h1>Returns picked<br>up from your<br>doorstep.</h1>
+        <p class="hero-lede">No more packaging.<br>No more printing.<br>No more driving.</p>
+        <form class="postcode-form" id="postcode-form"><span class="pin">⌖</span><label class="sr-only" for="postcode">Enter your zip code</label><input id="postcode" name="postcode" placeholder="Enter your zip code" autocomplete="postal-code" required><button aria-label="Check availability" type="submit">→</button></form>
+        <p class="form-feedback" aria-live="polite"></p>
+        <div class="store-row"><a class="store-badge" href="#app"><span></span><small>Download on the</small><strong>App Store</strong></a><a class="store-badge play" href="#app"><span>▶</span><small>GET IT ON</small><strong>Google Play</strong></a></div>
+        <div class="press-badge">✦ Featured in <b>Product Hunt</b></div>
+      </div>
+      <div class="hero-visual"><img src="assets/purple-van.png" alt="Purple ReturnQueen-style delivery van" class="van"></div>
+    </section>
+
+    <section class="retailers section" id="about">
+      <div class="section-heading"><h2>You buy it. We return it.</h2><p>We return all your online purchases from any retailer</p></div>
+      <div class="retailer-logos" aria-label="Retailers"><span class="logo-blue">BESTBUY</span><span>H&amp;M</span><span>target</span><span class="logo-script">Adore Me</span><span class="logo-green">buybuy BABY</span><span class="logo-dark">IKEA</span></div>
+      <p class="retailer-highlight">We process returns from 5000+ retailers</p><p class="retailer-sub">Amazon, Shein, Target, Zara, H&amp;M, Nordstrom and more</p>
+    </section>
+
+    <section class="benefits section" id="pricing">
+      <span class="pill">WHY USE RETURNQUEEN</span><h2>It’s the stress-free way to get<br class="desktop-only"> your money back</h2>
+      <div class="benefit-grid">
+        <article class="benefit"><div class="benefit-icon purple">♧<b>$</b></div><h3>No more<br>packaging and printing</h3><p>Your time’s too precious. You can leave that to us.</p></article>
+        <article class="benefit"><div class="benefit-icon coral">▣<b>↗</b></div><h3>No more<br>post office trips</h3><p>No lines. No waiting. Every. Time.</p></article>
+        <article class="benefit"><div class="benefit-icon lilac">▱<b>$</b></div><h3>No more<br>missed refunds</h3><p>Get your money back in time — every time.</p></article>
+      </div>
+    </section>
+
+    <section class="statement-band"><div class="statement-mark">↶</div><h2>Are you still<br>Wasting time and<br>energy?</h2></section>
+
+    <section class="how section" id="how">
+      <span class="pill">HOW IT WORKS</span><h2 class="gradient-text">Returning the new way is as<br class="desktop-only"> easy as it sounds</h2>
+      <div class="steps-grid">
+        <article class="step"><div class="step-art art-orders"><div class="art-corner"></div><div class="mini-window"><i></i><span>Blue Floral Dress</span><small>Order #2481</small></div><div class="mini-window"><i></i><span>Everyday Sneakers</span><small>Order #2482</small></div></div><h3>Choose your items to return</h3><p>Our app helps you find your<br>shopping labels fast.</p></article>
+        <article class="step"><div class="step-art art-calendar"><div class="calendar-top">Select pickup date</div><div class="calendar-days"><b>18</b><b>19</b><b class="selected">20</b><b>21</b></div><div class="calendar-line"></div><div class="calendar-button"></div></div><h3>Schedule your pickup</h3><p>Let us know when and where to<br>pick up your returns.</p></article>
+        <article class="step"><div class="step-art art-pickup"><div class="pickup-tag">-15%</div><div class="pickup-card"><i></i><b>Pickup Details</b><small>Package ready</small><hr><span>✓ Your return is scheduled</span><span>✓ Driver on the way</span></div></div><h3>Leave the rest to us</h3><p>Sit back and watch your refunds<br>roll in.</p></article>
+      </div>
+      <div class="breeze"><h2>ReturnQueen<br>makes online<br>returns a<br>breeze</h2><p>Say goodbye to sorting, taping,<br>boxing, label printing, and endless post<br>office trips.</p></div>
+    </section>
+
+    <section class="testimonials section"><span class="pill">HEAR FROM OUR USERS</span><div class="quote-heading"><span>“</span><h2>A total online shopping game<br>changer</h2><span>”</span></div>
+      <div class="review-grid"><article class="review"><p>At first I seriously told my sister this app could not be real. I hate packaging and labels, but I just scheduled a pickup and everything was handled. The app is easy to use and the whole process is so simple.</p><div class="stars">★★★★★</div><small>— Happy ReturnQueen user</small></article><article class="review"><p>This app is so easy to use! It’s designed so well that I was able to seamlessly complete my return. No more standing in huge lines or printing anything — all the things I hate about returning are taken care of.</p><div class="stars">★★★★★</div><small>— Happy ReturnQueen user</small></article><article class="review"><p>In addition to the life-changing innovation, everyone on the team is super friendly and responsive to work with. I can’t recommend ReturnQueen highly enough, and can’t imagine life without it!</p><div class="stars">★★★★★</div><small>— Happy ReturnQueen user</small></article></div>
+    </section>
+
+    <section class="app-section section" id="app"><div class="app-banner"><div class="phones"><div class="phone phone-back"><div class="phone-screen"><b>returnqueen</b><i></i><i></i><i></i><i></i></div></div><div class="phone phone-front"><div class="phone-screen"><b>My Returns</b><div class="app-product"></div><i></i><i></i><i></i><button>Schedule pickup</button></div></div></div><div class="app-copy"><h2>Download the<br>ReturnQueen App</h2><p>Find out just how easy it is to return. Experience a game-changing service today.</p><div class="avatars"><span>J</span><span>M</span><span>A</span><small>Join thousands of happy shoppers</small></div><div class="store-row"><a class="store-badge" href="#app"><span></span><small>Download on the</small><strong>App Store</strong></a><a class="store-badge play" href="#app"><span>▶</span><small>GET IT ON</small><strong>Google Play</strong></a></div></div></div></section>
+  </main>
+  <footer class="footer"><div class="footer-brand"><a class="brand" href="#home"><span class="brand-mark">↶</span>returnqueen</a><p>We make returns. We love them!<br>We pick up, we do it all, no stress.</p><div class="socials"><a href="#" aria-label="Instagram">◎</a><a href="#" aria-label="Facebook">f</a><a href="#" aria-label="Pinterest">p</a><a href="#" aria-label="TikTok">♪</a></div></div><div class="footer-links"><div><h3>Company</h3><a href="#about">About Us</a><a href="#how">How it Works</a><a href="#pricing">Pricing</a><a href="#">Services Areas</a><a href="#">Press</a></div><div><h3>Support</h3><a href="#">FAQs</a><a href="mailto:hello@returnqueen.com">✉ hello@returnqueen.com</a><a href="tel:+18005550123">☏ (800) 555-0123</a></div></div><div class="footer-bottom"><span>© 2025 ReturnQueen. All Rights Reserved.</span><span><a href="#">Terms &amp; Conditions</a>　<a href="#">Privacy Policy</a></span></div></footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script><script src="script.js"></script>
+</body></html>
